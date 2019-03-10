@@ -1,4 +1,4 @@
-### $GOPATH
+# $GOPATH
 
 ```bash
 > go env GOPATH
