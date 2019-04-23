@@ -19,7 +19,7 @@ func main(){
 }
 ```
 
-Para printar qualquer valor, utilize o formatador `%v`:
+Para printar qualquer valor, utilize o formatador `%v`. Ele é um canivete suíço, mas não garante segurança de tipo:
 
 ```go
 package main
@@ -69,7 +69,7 @@ func main(){
 }
 ```
 
-O Go compara o valor a ser formatado com seu verbo correspondente. Se um verbo for usado para o tipo incorreto, o Go vai avisar.
+O Go compara o valor a ser formatado com seu verbo correspondente. Se um verbo for usado para o tipo incorreto, o Go vai avisar. Isso é garantir a segurança dos tipos.
 
 ## Printing precision
 
